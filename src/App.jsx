@@ -1,5 +1,4 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import logoGpt from "./assets/logogpt.jpg";
 import PhotoAlbum from "react-photo-album";
 
 import "./App.css";
@@ -10,8 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <img src={reactLogo} alt="react" width="100" />
-        <img src={viteLogo} alt="vite" width="100" />
+        <img src={logoGpt} alt="react" width="300" />
       </div>
       <h1>Experiencia Oficina Sistemas - Navidad 2023</h1>
       <PhotoAlbum layout="masonry" photos={photos} />
